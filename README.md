@@ -1,16 +1,16 @@
 # CapitaLiteracy
 
-CapitaLiteracy is a full-stack financial literacy application designed to help users understand and manage their spending. Users can upload their credit and debit bank statements as images or PDFs. The application utilizes Optical Character Recognition (OCR) to extract transaction data, which is then automatically categorized and visualized on an interactive dashboard. The platform also features a personalized goal-setting module and an AI-powered chatbot to provide financial insights and advice.
+CapitaLiteracy is a full-stack financial literacy application designed to help users understand and manage their spending. Users can upload their credit and debit bank statements as images or PDFs. The application utilises Optical Character Recognition (OCR) to extract transaction data, which is then automatically categorised and visualised on an interactive dashboard. The platform also features a personalised goal-setting module and an AI-powered chatbot to provide financial insights and advice.
 
 ## ✨ Features
 
 *   **Secure User Authentication**: Manages user sign-up and login via Supabase.
 *   **Bank Statement Upload**: Supports uploading credit and debit statements in PDF, PNG, and JPG formats.
 *   **OCR Transaction Extraction**: Automatically extracts transaction details from uploaded documents using Tesseract.
-*   **Automatic Spending Categorization**: Sorts transactions into categories like Shopping, Bills, Travel, and more.
-*   **Interactive Data Visualization**: Displays spending data through dynamic pie charts and line charts showing daily spending trends.
-*   **Personalized Budget Goals**: Allows users to interactively set and save their monthly spending goals by category.
-*   **AI Financial Coach**: A Gemini-powered chatbot provides personalized financial advice and answers questions about user spending data.
+*   **Automatic Spending Categorisation**: Sorts transactions into categories like Shopping, Bills, Travel, and more.
+*   **Interactive Data Visualisation**: Displays spending data through dynamic pie charts and line charts showing daily spending trends.
+*   **Personalised Budget Goals**: Allows users to interactively set and save their monthly spending goals by category.
+*   **AI Financial Coach**: A Gemini-powered chatbot provides personalised financial advice and answers questions about user spending data.
 
 ## 💻 Technology Stack
 
@@ -96,8 +96,8 @@ You need to run two separate processes: the Python backend and the React fronten
 2.  **File Upload**: The user uploads their financial statements (credit or debit) in PDF, PNG, or JPG format.
 3.  **Processing**: The user clicks "Continue," which sends a request to the Flask backend to start processing the uploaded files. The frontend shows a loading screen while streaming status updates from the backend.
 4.  **OCR and Data Extraction**: The backend uses Tesseract to perform OCR on the documents, extracting raw text.
-5.  **Parsing and Categorization**: The extracted text is parsed to identify individual transactions, which are then categorized based on merchant names.
-6.  **Dashboard Visualization**: Once processing is complete, the user is redirected to the main dashboard where their categorized spending is displayed in interactive charts.
+5.  **Parsing and Categorisation**: The extracted text is parsed to identify individual transactions, which are then categorised based on merchant names.
+6.  **Dashboard Visualisation**: Once processing is complete, the user is redirected to the main dashboard where their categorised spending is displayed in interactive charts.
 7.  **Goal Setting**: The user can navigate to the "Goals" tab to set a target budget mix, which is saved to their profile.
 8.  **AI Chat**: The user can interact with the Gemini-powered chatbot to ask questions about their spending patterns and receive financial advice.
 

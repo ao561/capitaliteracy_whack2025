@@ -1,4 +1,4 @@
-# CapitaLiteracy
+# CapitaLiteracy (2nd Place @ WHACK 2025 🥈)
 
 CapitaLiteracy is a full-stack financial literacy application designed to help users understand and manage their spending. Users can upload their credit and debit bank statements as images or PDFs. The application utilises Optical Character Recognition (OCR) to extract transaction data, which is then automatically categorised and visualised on an interactive dashboard. The platform also features a personalised goal-setting module and an AI-powered chatbot to provide financial insights and advice.
 
